@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Loader by Amit</title>
+
+    <style>
+      body {
+        padding: 50%;
+      }
+      #loader {
+        border: 5px solid #ddd;
+        height: 100px;
+        width: 100px;
+        border-radius: 50%;
+        border-top-color: red;
+        animation: amit 1s infinite;
+      }
+      @keyframes amit {
+        100% {
+          rotate: 360deg;
+        }
+      }
+    </style>
+  </head>
+
+  <body>
+    <div id="loader"></div>
+  </body>
+</html>
